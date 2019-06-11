@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+       <!--MAterialize-->
+        <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+        <link rel="stylesheet" href="../css/styler.css">        <!--Login transparente-->
+        <link rel="stylesheet" href="../css/validacion.css">        <!--Validacion css-->
+</head>
+<body>
+    <div class="section container">
+            <div class="card right">
+                    <div class="card-content">
+                        <div class="card image">                            
+                            <img src="./Imagenes/avatarregistro.jpg" class="avatar">
+                        </div><br> <h1>Crea tu cuenta MiClub</h1>
+                            <form action="" method="post" id="frmregistro">
+                                    <div class="input-field">
+                                            <input type="text" name="username" id="username">
+                                            <label for="username">UserName:*</label>    
+                                    </div>
+                                    <div class="input-field">
+                                            <input type="text" name="mail" id="mail">
+                                            <label for="mail">Email:*</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <label for="psw">Password:*</label>
+                                        <input type="password" name="psw" id="psw">
+                                    </div>
+                                    <div class="input-field">
+                                            <label for="cpsw">Confirm password:*</label>
+                                            <input type="password" name="cpsw" id="cpsw">
+                                    </div>
+                                    <div class="input-field">
+                                        <label for="fecha">Birthdate:*</label>
+                                        <input type="text" name="fecha" id="fecha" class="datepicker">
+                                    </div>
+                                    <div class="input-field">
+                                          <select name="sexo" id="sexo">
+                                                <option value="" disabled selected>Select your sex</option>
+                                                <option value="1">Female</option>
+                                                <option value="2">Male</option>
+                                                <option value="3">Other</option>
+                                          </select>
+                                    </div>
+                                    <div class="input-field">
+                                            <label for="phone">Phone number:</label>
+                                            <input type="text" name="phone" id="phone">
+                                    </div>
+                                    <div class="input-field">
+                                        <p>
+                                            <label for="remember">
+                                                <input type="checkbox" name="remember" id="remember">
+                                                <span>Aceptar terminos y condiciones</span><br>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laborum architecto, 
+                                                    obcaecati nesciunt debitis ducimus dolore optio reprehenderit, 
+                                                    rerum magni, labore sed. Pariatur, laudantium blanditiis nam deserunt molestiae neque hic.</p>
+                                            </label>
+                                        </p>
+                                    </div><br>
+                                    <div class="input-field">
+                                        <input type="submit" name="btnregister" id="btnregister"value="Save">
+                                    </div>
+                                    <a href="#"class="right">¿Do not you remember your password?</a><br>
+                                    <a href="./login.html"class="right">Login</a>
+                            </form>
+                    </div>
+                </div>
+    </div>
+    
+       <!--Funciones basicas JS-->
+       <script src="../js/funcionesbasicas.js"type="text/javascript"></script>
+         <!--JS Materialize-->
+        <script type="text/javascript" src="../js/materialize.min.js"></script>
+        <!--JS para el select-->
+        <script src="../js/Select.js" type="text/javascript"></script>
+        <!--Validaciones con JQuery-->
+        <script src="../js/jquery-3.0.0.min.js" type="text/javascript"></script>
+        <script src="../js/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="../js/validacionregistro.js" type="text/javascript"></script>
+</body>
+</html>

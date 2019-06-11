@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(http://localhost/hackleon/imagenes/leon.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.card{
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 50px;
+}
+.card p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: justify;
+}
+.card input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card input[type="text"], input[type="password"],input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.card input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: green;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.card input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #fff;
+}
+
+.card a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#fff;
+}
+.card a:hover
+{
+    color: #1c8adb;
+}

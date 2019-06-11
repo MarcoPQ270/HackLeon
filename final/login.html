@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <!--MAterialize-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+    <!--Estilo css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/default.css">
+</head>
+<body>
+    <form action="" method="post" id="frmlogin">
+            <div class="login-box">
+                    <img src="./Imagenes/avatarlogin.png" class="avatar">
+                    <h1>Inicio de sesión</h1>
+                    <div class="input-field">
+                        <input type="text" name="username" id="username">
+                        <label for="username">User Name or Email:</label>
+                    </div>
+                    <div class="input-field">
+                        <label for="psw">Password:</label>
+                        <input type="password" name="psw" id="psw">
+                    </div>
+                    <div class="input-field">
+                        <p>
+                            <label for="remember">
+                                <input type="checkbox" name="remember" id="remember">
+                                <span>Remember me</span>
+                            </label>
+                        </p>
+                    </div><br>
+                    <div class="input-field">
+                        <input type="submit" name="btnlogin" id="btnlogin"value="Login">
+                    </div>
+                    <a href="#"class="right">¿Do not you remember your password?</a><br>
+                    <a href="./Registro.html"class="right">Registrarse</a>
+                </div>
+    </form>
+    <!--JS Materialize-->
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <!--Validacion JQuery-->
+    <script type="text/javascript" src="../js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../js/validacionlogin.js"></script>
+</body>
+</html>
